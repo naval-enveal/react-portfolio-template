@@ -1,83 +1,65 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Portfolio of Naval Sood",
+		name: "Naval Sood",
+		email: "naval@enveal.in",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		twitter: "https://x.com/_enveal_",  // no Twitter in resume, kept as placeholder
+		github: "https://github.com/enveal",
+		linkedin: "https://linkedin.com/in/enveal",
+		// instagram: "",
+		// stackoverflow: "",
+		// facebook: "",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Full-stack web and mobile app developer, backend specialist, and tech mentor.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a senior software engineer with expertise in Java, MERN stack, and Spring Boot. I have experience in designing scalable, secure, and high-performance web applications, mentoring junior developers, and leading teams in adopting modern development practices. I am passionate about building products that solve real-world problems and continuously push myself to learn and grow.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Naval Sood. I live in Ludhiana, Punjab, where I help shape the future of scalable web applications.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Over the years, I've worked on a range of projects, from migrating legacy systems to building monolithic and microservice architectures, often blending technologies like React.js, Spring Boot, Node.js, and AWS. My projects are focused on delivering robust solutions, and I'm always open to collaboration, feedback, and innovation. Check out my work and let’s connect!",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Exploring backend innovation and mentoring the next generation of developers.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"A curated collection of my insights on backend engineering, system design, product scaling, and team leadership.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Klearnow",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Klearnow is a US-based Logistics as a Service (LaaS) platform. I developed and maintained a panel that processes over 300 shipments per day, working closely with product, AI, and operations teams to add new functionalities.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://www.klearnow.ai/",
 		},
 
 		{
-			title: "Project 2",
+			title: "StayEasy",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"StayEasy is a Dubai-based startup offering a peer empowerment platform for hotel management. I helped develop a monolithic backend using Spring Boot and PostgreSQL, taking the product from scratch to production.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			// link: "https://github.com/enveal",  // update with real project link if available
 		},
 
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		// {
+		// 	title: "Avishkaar Maker Studio",
+		// 	description:
+		// 		"Enhanced the AMS (Avishkaar Maker Studio), a React-based web application, and migrated workflows from PHP to Node.js, improving performance and user experience.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/react/react.png",
+		// 	linkText: "View Project",
+		// 	// link: "https://github.com/enveal",  // update with real project link if available
+		// }
 	],
 };
 
